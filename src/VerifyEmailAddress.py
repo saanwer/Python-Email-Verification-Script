@@ -9,7 +9,7 @@ fromAddress = 'corn@bt.com'
 regex = '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$'
 
 # Email address to verify
-inputAddress = input('Please enter the emailAddress to verify:')
+inputAddress = raw_input('Please enter the emailAddress to verify:')
 addressToVerify = str(inputAddress)
 
 # Syntax check
